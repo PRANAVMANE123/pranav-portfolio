@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Pranav Mane | AI & Data Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="animated-bg"></div>
+  
+  <div class="container">
+    <header class="hero">
+      <div class="hero-badge">
+        <span class="badge-glow">✨ AI & Analytics Enthusiast</span>
+      </div>
+      <h1 class="glow-text">Pranav Mane</h1>
+      <p class="hero-tagline">Data-driven decision maker | Dashboard creator | AI problem solver</p>
+      <div class="contact-info">
+        <a href="tel:+918850020087"><i class="fas fa-phone-alt"></i> +91-8850020087</a>
+        <a href="mailto:pmane2291@gmail.com"><i class="fas fa-envelope"></i> pmane2291@gmail.com</a>
+        <a href="#" id="linkedin-link" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+      <div class="btn-group">
+        <button class="btn primary-btn" id="downloadResumeBtn"><i class="fas fa-file-pdf"></i> Download Resume (PDF)</button>
+        <button class="btn outline-btn" id="contactToggleBtn"><i class="fas fa-paper-plane"></i> Quick Contact</button>
+      </div>
+    </header>
+
+    <div id="contactCard" class="contact-card hidden">
+      <div class="card-header">
+        <h3>Let's Connect</h3>
+        <span id="closeContactBtn" class="close-btn">&times;</span>
+      </div>
+      <p><i class="fas fa-phone-alt"></i> +91-8850020087</p>
+      <p><i class="fas fa-envelope"></i> pmane2291@gmail.com</p>
+      <p><i class="fab fa-linkedin"></i> pranav-mane-64073432b</p>
+      <small>Available for freelance & opportunities</small>
+    </div>
+
+    <div class="main-grid">
+      <div class="card card-about">
+        <div class="card-icon"><i class="fas fa-user-astronaut"></i></div>
+        <h2>About Me</h2>
+        <p>Artificial Intelligence student skilled in data analysis, Excel, Tableau, and data entry with experience in Python and SQL. Passionate about data-driven decision making, interactive dashboards, and AI applications. Detail-oriented with the ability to organize and analyze large datasets efficiently.</p>
+      </div>
+
+      <div class="card card-edu">
+        <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+        <h2>Education</h2>
+        <div class="edu-detail">
+          <h3>Bachelor of Science in Artificial Intelligence</h3>
+          <p class="institute">Vivekanand Education Society's College, Mumbai</p>
+          <p class="date">June 2024 - June 2026 | <strong>CGPA: 8.45/10.0</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="skills-section">
+      <h2><i class="fas fa-code-branch"></i> Core Competencies</h2>
+      <div class="skills-container">
+        <div class="skill-category">
+          <h3>📊 Data & Analysis</h3>
+          <div class="skill-tags">
+            <span>Data Entry</span><span>Data Cleaning</span><span>Excel (Pivot/VLOOKUP)</span><span>Tableau</span><span>Dashboard Creation</span><span>Statistical Analysis</span><span>Dataset Processing</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>💻 Programming</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>SQL</span><span>JavaScript</span><span>HTML/CSS</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>🤖 AI & Machine Learning</h3>
+          <div class="skill-tags">
+            <span>ML Fundamentals</span><span>Computer Vision</span><span>Generative AI</span><span>Scikit-learn</span><span>NumPy</span><span>Pandas</span><span>Model Evaluation</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>🛠️ Tools & Design</h3>
+          <div class="skill-tags">
+            <span>Git/GitHub</span><span>VS Code</span><span>UI Design</span><span>API Integration</span><span>Flask</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects-section">
+      <h2><i class="fas fa-project-diagram"></i> Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Smart Business Insights Dashboard</h3>
+          <div class="tech-stack">Python, Pandas, Scikit-learn, Tableau/Power BI</div>
+          <p>Interactive dashboard analyzing sales data across regions/products. Implemented ML model to forecast sales trends with dynamic visualizations.</p>
+        </div>
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-robot"></i></div>
+          <h3>AI Chatbot for Office Helpdesk</h3>
+          <div class="tech-stack">Python, Flask, NLP</div>
+          <p>Developed an AI chatbot to answer FAQs and automate support queries using NLP for understanding. Built backend using Flask for real-time interaction.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="certs-section">
+      <h2><i class="fas fa-certificate"></i> Certifications & Achievements</h2>
+      <div class="cert-grid">
+        <div class="cert-item"><i class="fab fa-aws"></i> AWS Solutions Architecture Job Simulation</div>
+        <div class="cert-item"><i class="fas fa-chart-simple"></i> Python for Data Science (Cognitive class.ai IBM)</div>
+        <div class="cert-item"><i class="fas fa-brain"></i> GenAI Powered Data Analytics - Tata x Forage</div>
+        <div class="cert-item"><i class="fas fa-chart-pie"></i> Data Analytics Job Simulation - Deloitte x Forage</div>
+        <div class="cert-item"><i class="fas fa-chart-line"></i> Stock market using AI</div>
+        <div class="cert-item"><i class="fas fa-database"></i> Data Analysis with Python (Cognitive class.ai IBM)</div>
+      </div>
+    </div>
+
+    <footer>
+  <p>✨ Building intelligent data solutions | Open to collaboration ✨</p>
+
+  <div class="footer-social">
+    <a href="https://github.com/PRANAVMANE123" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/pranav-mane-64073432b" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  </div>
+
+  <p class="copy">&copy; 2025 Pranav Mane — AI & Data Portfolio</p>
+</footer>
